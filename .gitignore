@@ -1,0 +1,29 @@
+# Artefatos de construção do PyInstaller
+build/
+dist/
+*.spec
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Configuração gerada na primeira execução, editável pela equipe.
+# Não versionar: congelaria as assinaturas de cabeçalho do Octalink,
+# que a área precisa poder ajustar sem mexer no programa.
+tipos_relatorio.json
+autofollow_anexos.json
+
+# Saída de execução sobre dados reais: traz códigos de pedido e de RMS
+# da operação de Compras.
+error_logs.txt
+*.log
+
+# Planilhas de trabalho e temporários do Excel
+follow_up.xlsx
+triagem.xlsx
+prazos_anexos.xlsx
+~$*.xlsx
+
+# Ambientes virtuais
+.venv/
+venv/
