@@ -29,28 +29,28 @@ Extraído o programa, você pode colocar a pasta onde achar melhor.
 
 Feito isso, abra a pasta e clique no arquivo `AutoFollow.exe`.
 
-<!-- ![Abrindo o .exe](assets/tutorial/exe_in_folder.png) -->
+![Abrindo o .exe](assets/tutorial/exe_in_folder.png)
 
 > [!Warning]
 > É possível que o *Windows Defender* acuse o programa como "software perigoso". Neste caso, para executá-lo, você deve clicar em `Mais Informações` e, depois, no botão `Executar assim mesmo`.
 
-<!-- ![Windows Defender acusando o programa](assets/tutorial/windows_defender_01.png) -->
+![Windows Defender acusando o programa](assets/tutorial/windows_defender_01.png)
 
-<!-- ![Executar assim mesmo](assets/tutorial/windows_defender_02.png) -->
+![Executar assim mesmo](assets/tutorial/windows_defender_02.png)
 
 Antes de iniciar uma operação, exporte do Octalink os relatórios que serão associados.
 
 ### 2.3 Interface do Programa
 
-<!-- ![Interface do programa](assets/tutorial/ui_01.png) -->
+![Interface do programa](assets/tutorial/ui_01.png)
 
 #### 2.3.1 Arquivos de Entrada
 
 O programa possui um único campo para a seleção das planilhas a associar. Para selecioná-las, deve-se clicar no botão `Selecionar`. Feito isso, o programa abre um diálogo do *Explorador de Arquivos*, permitindo que o usuário encontre e selecione os arquivos desejados.
 
-<!-- ![Seleção de arquivos](assets/tutorial/file_select_01.png) -->
+![Seleção de arquivos](assets/tutorial/file_select_01.png)
 
-<!-- ![Diálogo de seleção](assets/tutorial/file_select_02.png) -->
+![Diálogo de seleção](assets/tutorial/file_select_02.png)
 
 O programa aceita, em qualquer ordem e com qualquer nome de arquivo:
 
@@ -67,21 +67,21 @@ O programa aceita, em qualquer ordem e com qualquer nome de arquivo:
 
 Após selecionar os arquivos, a lista é atualizada.
 
-<!-- ![Interface com arquivos selecionados](assets/tutorial/ui_02.png) -->
+![Interface com arquivos selecionados](assets/tutorial/ui_02.png)
 
 Para remover um arquivo da lista, selecione-o e clique no botão `Remover`.
 
-<!-- ![Remoção de arquivo](assets/tutorial/file_removal.png) -->
+![Remoção de arquivo](assets/tutorial/file_removal.png)
 
 #### 2.3.2 Botão de Execução
 
 Selecionados os arquivos, ao clicar no botão `Executar`, o programa pede onde salvar a planilha de saída e, em seguida, associa os relatórios: cruza os registros pelo código do pedido e da RMS, resolve as divergências pela ordem de precedência configurada e monta a planilha de Follow-Up já formatada como tabela do Excel, com filtros, datas ordenáveis e a escala de status em menu suspenso.
 
-<!-- ![Clicando no botão](assets/tutorial/op_01.png) -->
+![Clicando no botão](assets/tutorial/op_01.png)
 
-<!-- ![Processando](assets/tutorial/op_02.png) -->
+![Processando](assets/tutorial/op_02.png)
 
-<!-- ![Processamento concluído](assets/tutorial/op_03.png) -->
+![Processamento concluído](assets/tutorial/op_03.png)
 
 A chave `Abrir planilha quando estiver pronta` faz o programa abrir o resultado no Excel assim que terminar.
 
@@ -112,7 +112,7 @@ AutoFollow_Anexos.exe --simular
 > [!Warning]
 > O lançamento beta (*beta release*) foi desenvolvido para **testes internos**, visando identificar e corrigir bugs antes do lançamento de uma versão estável.
 
-Data de lançamento: `__/__/____`
+Data de lançamento: `25/11/2026`
 
 Para fazer o download desta versão, clique [aqui](https://github.com/imbaTIMvel/autofollow_py/releases).
 
@@ -140,9 +140,9 @@ Timóteo Altoé (*handle:* [imbaTIMvel](https://github.com/imbaTIMvel))
 
 #### Datas:
 
-`__/__/____` Início do projeto
+`20/08/2026` Início do projeto
 
-`__/__/____` Lançamento da versão *beta* - para testes
+`25/11/2026` Lançamento da versão *beta* - para testes
 
 #### Para construir os executáveis:
 
